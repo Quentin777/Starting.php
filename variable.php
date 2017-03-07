@@ -7,6 +7,7 @@
 </head>
 <body>
 <h1>Exercice 1</h1>
+
 <?php  
 
 	$nom = "Jenesaispas";
@@ -20,12 +21,42 @@
 	$prenom = "Remi";
 	$nom = "sans-famille";
 	$age = "12";
-	echo "$prenom";
-	echo "$nom";
-	$age = "$age"
+	echo "$prenom"; 
+	echo "$nom"; 
+	echo  "$age"; 
+
+?>
+
+<h1>Exercice 3</h1>
+
+<?php  
+		
+	$Kilometrer = "3";
+	$Kilometree = "125";
+	echo "$Kilometrer"; 
+	echo "$Kilometree"; 
+
+?>
+
+
+<h1>Exercice 4 </h1>
+
+
+<?php  
+	
+	$kilometre = "3";
+	$bolean = "true";
+	$int = "1";
+	$float = "1.0392";
+	echo "$float";
+	echo "$bolean";
+	echo "$kilometre";
+	echo "$int";
 
 ?>
 
 <footer></footer>
+</body>
+</html>
 </body>
 </html>
