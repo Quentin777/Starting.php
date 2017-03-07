@@ -42,3 +42,11 @@ exercice 7
 Crée trois variable nom prenom age (age est un entier)
 
 et afficher bonjour $nom $prenom et tu as $age
+
+exo 8
+
+Trois variable 
+
+1) mettre le resultat 3+4
+2) mettre le resultat de 5*20
+3) 45 / 5
