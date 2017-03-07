@@ -6,12 +6,14 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
+
 <h1>Exercice 1</h1>
 
 <?php  
 
+
 	$nom = "Jenesaispas"; 
-	echo "$nom";
+	echo('<td> "$nom" </td>');
 
 ?>
 
@@ -21,10 +23,9 @@
 	$prenom = "Remi";
 	$nom = "sans-famille";
 	$age = "12";
-	echo "$prenom"; 
-	echo "$nom"; 
-	echo  "$age"; 
-
+	echo('<td> "$prenom" </td>');
+	echo('<td> "$nom" </td>'); 
+	echo('<td> "$age" </td>');
 ?>
 
 <h1>Exercice 3</h1>
