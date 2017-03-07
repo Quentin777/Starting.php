@@ -10,7 +10,7 @@
 
 <?php  
 
-	$nom = "Jenesaispas";
+	$nom = "Jenesaispas"; 
 	echo "$nom";
 
 ?>
@@ -52,6 +52,22 @@
 	echo "$bolean";
 	echo "$kilometre";
 	echo "$int";
+
+?>
+
+<h1>Exercice 5 </h1>
+
+<?php
+	$int ="";
+	echo "$int"
+
+?>
+
+<h1>Exercice 6 </h1>
+
+<?php
+	$nom ="kevin";
+	echo "Bonjour $nom comment-vas tu?"
 
 ?>
 
