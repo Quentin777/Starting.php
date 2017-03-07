@@ -50,3 +50,16 @@ Trois variable
 1) mettre le resultat 3+4
 2) mettre le resultat de 5*20
 3) 45 / 5
+
+
+
+exo 9
+
+crée une variable age initialiser avec une valeur
+si l'age est superieur a 18 afficher majeur
+dans le cas contraire vous êtes majeur
+
+
+ crée une variable is ez (de type bolean) et initialiser la avec une valeur 
+
+ afficher si c'est facile (vrai) si c'est trop dur (faux)
