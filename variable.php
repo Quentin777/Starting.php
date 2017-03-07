@@ -60,8 +60,10 @@
 <h1>Exercice 5 </h1>
 
 <?php
-	$int ="";
-	echo "$int"
+	$int =(int)NULL;
+	echo "$int";
+	$int = "3";
+	echo "$int";
 
 ?>
 
