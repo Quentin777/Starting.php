@@ -22,3 +22,11 @@ Exercice 3
 
 On crée une variable KM on va changer sa valeur par 3 et on affiche son comptenu
 et on va échanger sa valeur par 125 et on affiche son comptenu
+
+
+
+variable string / int / float / boolean / et les initialiser avec les valeur de votre choix
+
+
+
+ecrée une variable de type int  (initialiser avec rien) afficher , donner une valeur avec cette variable et l'afficher 
