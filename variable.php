@@ -13,7 +13,7 @@
 
 
 	$nom = "Jenesaispas"; 
-	echo('<td> "$nom" </td>');
+	echo "$nom";
 
 ?>
 
@@ -23,9 +23,10 @@
 	$prenom = "Remi";
 	$nom = "sans-famille";
 	$age = "12";
-	echo('<td> "$prenom" </td>');
-	echo('<td> "$nom" </td>'); 
-	echo('<td> "$age" </td>');
+	echo "$prenom"; 
+	echo "$nom"; 
+	echo  "$age"; 
+
 ?>
 
 <h1>Exercice 3</h1>
