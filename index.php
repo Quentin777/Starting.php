@@ -33,11 +33,11 @@
 
 <?php  
 		
-	$Kilometre = "3";
+	$Kilometrer = "3";
 	$Kilometree = "125";
 
-	echo "$kilometre";
-	echo "$Kilometre1";
+	echo kilometre "$kilometrer";
+	echo kilometre "$Kilometree";
 
 
 ?>
