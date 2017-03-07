@@ -83,15 +83,15 @@
 
 ?>
 
-<h1>Exercice 7 </h1>
+<h1>Exercice 8 </h1>
 
 <?php
 	$chiffre = 3+4;
 	$chiffrea = 20*5;
 	$resultata = 45/5;
 
-	echo "$chiffre";
-	echo "$chiffrea";
+	echo "$chiffre.<br>";
+	echo "$chiffrea.<br>";
 	echo "$resultata";
 
 ?>
