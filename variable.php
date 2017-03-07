@@ -23,8 +23,8 @@
 	$prenom = "Remi";
 	$nom = "sans-famille";
 	$age = "12";
-	echo "$prenom"; 
-	echo "$nom"; 
+	echo "$prenom.<br>"; 
+	echo "$nom.<br>"; 
 	echo  "$age"; 
 
 ?>
@@ -35,7 +35,7 @@
 		
 	$Kilometrer = "3";
 	$Kilometree = "125";
-	echo "$Kilometrer"; 
+	echo "$Kilometrer.<br>"; 
 	echo "$Kilometree"; 
 
 ?>
@@ -50,10 +50,10 @@
 	$bolean = "true";
 	$int = "1";
 	$float = "1.0392";
-	echo "$float";
-	echo "$bolean";
-	echo "$kilometre";
-	echo "$int";
+	echo "$float.<br>";
+	echo "$bolean.<br>";
+	echo "$kilometre.<br>";
+	echo "$int.<br>";
 
 ?>
 
@@ -68,10 +68,21 @@
 <h1>Exercice 6 </h1>
 
 <?php
-	$nom ="kevin";
-	echo "Bonjour $nom comment-vas tu?"
+	$nom ="Dupond";
+	echo "Bonjour $nom comment-vas tu?";
 
 ?>
+
+<h1>Exercice 7 </h1>
+
+<?php
+	$nom ="Dupond";
+	$prenom ="Robert";
+	$age ="100";
+	echo "Bonjour $nom $prenom tu as $age ans!!!!!";
+
+?>
+
 
 <footer></footer>
 </body>

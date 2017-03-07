@@ -30,3 +30,15 @@ variable string / int / float / boolean / et les initialiser avec les valeur de 
 
 
 ecrée une variable de type int  (initialiser avec rien) afficher , donner une valeur avec cette variable et l'afficher 
+
+
+exercice 6 
+
+crée une variable nom l'ini avec la valeur de votre choix
+afficher bonjour $nom comment vas-tu
+
+exercice 7
+
+Crée trois variable nom prenom age (age est un entier)
+
+et afficher bonjour $nom $prenom et tu as $age
