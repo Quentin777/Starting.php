@@ -63,3 +63,12 @@ dans le cas contraire vous êtes majeur
  crée une variable is ez (de type bolean) et initialiser la avec une valeur 
 
  afficher si c'est facile (vrai) si c'est trop dur (faux)
+
+
+ exo 3
+
+ crée deux variable (age et genre)
+
+ la variable genre peut prendre comme valeur "homme ou femme"
+
+ en fonction de l'age et du genre , afficher la phrase correspondante;

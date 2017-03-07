@@ -8,14 +8,14 @@
 
 <?php 
 
-	$age = "";
-	$majeur => "18";
+	$age = "19";
+	$majeur > "18";
 	$mineur < "18";
 
 	if ($age <= $majeur ){ 
-		echo = "majeur";
-	}if else{
-		echo = "mineur";
+		echo  "tu es majeur";
+	}else{
+		echo "tu es mineur";
 	}
 
  ?>
