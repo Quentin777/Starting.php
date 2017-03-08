@@ -12,5 +12,6 @@
 <a href="variable.php"> Exercice 1 </a>
 <a href="condition.php"> Exercice 2 </a>
 <a href="exo2.php"> Exo bonus </a>
+<a href="boucle.php"> Boucle</a>
 </body>
 </html>
