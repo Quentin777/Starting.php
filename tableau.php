@@ -26,7 +26,7 @@ cle2=>Nord ,
 cle3=> Oise,
 cle4=> Pas-de-Calais,
 cle5=> Somme,
-...); 
+); 
 
 ?>
 
