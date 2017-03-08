@@ -1,6 +1,6 @@
 <?php 
 
-$array = array("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet","aout","septembre","octobre", "novembre" , "decembre");
+$array = ("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet","aout","septembre","octobre", "novembre" , "decembre");
  ?>
 
 <!DOCTYPE html>
@@ -13,19 +13,14 @@ $array = array("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet",
 
 <?php  //exo1 , 2
 
-var_dump($array);
-var_dump($array[3]);
+echo print_r($array);
 	
 ?>
 
 <?php // exo 5
 
-$tableau = array( 
-cle1=> Aisne,
-cle2=>Nord ,
-cle3=> Oise,
-cle4=> Pas-de-Calais,
-cle5=> Somme,
+$tableau = array('nom du département' => Aisne, 'num du département' => 02, 'nom du département' => Nord, 'num du département' => 59, 'nom du département' =>Oise , 'num du département' => 60);
+
 ); 
 
 ?>

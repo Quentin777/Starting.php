@@ -7,43 +7,35 @@
 <body>
 
 <?php  
-	
-  function exo1() {
   	$result = true;
-  	echo "$result";
-  }
+  	echo ($result);
 ?>
 
 
 <?php  
 	
-  function exo2(){
-  	$coucou = "yolo";
-  	echo $coucou;
-  }
+  	$coucou = 'yolo';
+  	echo ($coucou);
 
 ?>
 
 <?php  
 	
-  function exo3(){
-  	$a = "yolo";
-  	$b = "yolo"
+  	$a = 'yolo';
+  	$b = 'yolo';
 
-  	return $a.$b;
-  }
+  	echo ($a.$b);
 
 ?>
 
 
 <?php  
 	
-  function exo5(){
-  	$a = "yolo";
+  	$a = 'yolo';
   	$b = 6;
 
-  	return $a.$b;
-  }
+  	echo ($a.$b);
+ 
 
 ?>
 
