@@ -13,6 +13,10 @@ $array = array("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet",
 
 <?php  
 
+var_dump($array); <br>
+
+echo "string(4)";
+
 ?>
 
 </body>
