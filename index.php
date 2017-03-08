@@ -15,5 +15,6 @@
 <a href="boucle.php"> Boucle</a>
 <a href="fonction.php"> Exercice 4 </a>
 <a href="paramettre.php"> Exercice 6 </a>
+<a href="formulaire.php"> Exercice 7 </a>
 </body>
 </html>
