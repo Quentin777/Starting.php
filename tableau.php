@@ -1,3 +1,11 @@
+<?php 
+
+$array = array("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet","aout","septembre","octobre", "novembre" , "decembre");
+ ?>
+
+ $array = array("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet","aout","septembre","octobre", "novembre" , "decembre");
+var_dump($array);
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,10 +15,6 @@
 <body>
 
 <?php  
-	
-	$arrayName = array('1' => janvier , fevrier );
-
-var_dump($arrayName);
 
 
 ?>
