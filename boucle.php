@@ -35,7 +35,7 @@
 
 	while ($varun > 10){
 		$varun = $varun * $vardeux;
-		echo "$varun";
+		echo "$varun.<br>";
 		$varun = $varun - 1;
 	}
 
