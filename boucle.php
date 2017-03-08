@@ -17,11 +17,11 @@
 <br>
 <?php  
 	$varun = 0;
-	$vardeux = 3;
+	$vardeux = 2;
 
 	while ($varun <= 20){
 		$varun = $varun * $vardeux;
-		echo "$varun.</br>";
+		echo "$varun";
     	$varun = $varun + 1;
     }
 
@@ -35,8 +35,8 @@
 
 	while ($varun > 10){
 		$varun = $varun * $vardeux;
-		echo "$varun.</br>";
-		$varun = $varun - 50;
+		echo "$varun";
+		$varun = $varun - 1;
 	}
 
 ?>
