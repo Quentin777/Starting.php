@@ -9,8 +9,8 @@
 	
   function coucou() {
   $resultat = true;
-  return $result;
-}
+  	echo "$result";
+  }
 ?>
 
 </body>
