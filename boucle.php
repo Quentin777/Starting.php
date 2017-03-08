@@ -63,5 +63,16 @@
 
 ?>
 
+<br>
+<?php  
+
+	$test = "on tieng le bon boo";
+	for ($i=0; $i<100 ; $i=$i+15){ 
+		echo "$test.<br>";
+	}
+
+
+?>
+
 </body>
 </html>
