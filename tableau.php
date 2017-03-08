@@ -15,7 +15,7 @@ $array = array("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet",
 
 var_dump($array); <br>
 
-echo "string(4)";
+var_dump("string(4)");
 
 ?>
 
