@@ -11,12 +11,30 @@ $array = array("janvier", "fevrier", "mars", "avril", "mai" , "juin", "juillet",
 </head>
 <body>
 
-<?php  
+<?php  //exo1 , 2
 
 var_dump($array);
-var_dump($array[5]);
+var_dump($array[3]);
 	
 ?>
+
+<?php // exo 5
+
+$tableau = array( 
+cle1=> Aisne,
+cle2=>Nord ,
+cle3=> Oise,
+cle4=> Pas-de-Calais,
+cle5=> Somme,
+...); 
+
+?>
+
+<?php 
+
+	var_dump($tableau);
+
+ ?>
 
 </body>
 </html>
