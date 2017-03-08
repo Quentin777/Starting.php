@@ -14,6 +14,7 @@
 
 ?>
 
+<br>
 <?php  
 	$varun = 0;
 	$vardeux = 3;
@@ -26,7 +27,7 @@
 
 ?>
 
-
+<br>
 <?php  
 	
 	$varun = 100;
@@ -40,16 +41,18 @@
 
 ?>
 
+<br>
 <?php  
 
 	$test = "on arrive presque";
-	for ($i=0; $i<5 ; $i++){ 
+	for ($i=0; $i<15 ; $i++){ 
 		echo "$test.<br>";
 	}
 
 
 ?>
 
+<br>
 <?php  
 
 	$test = "c'est presque bon";
