@@ -52,7 +52,6 @@
 
 ?>
 
-<br>
 <?php  
 
 	$test = "c'est presque bon";
