@@ -43,7 +43,18 @@
 
  case '1':
  echo "blabla1";
- break
+ break;
+ case '2':
+ echo "blabla2";
+ break;
+ case '3':
+ echo "blabla3";
+ break;
+ case '4':
+ echo "blabla4";
+ break;
+
+
 
 
 ?>
