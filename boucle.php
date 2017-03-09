@@ -43,6 +43,20 @@
 
 <br>
 <?php  
+	
+	$varun = 100;
+	$vardeux = 1;
+
+	while ($varun > 10){
+		$varun = $varun * $vardeux;
+		echo "$varun.<br>";
+		$varun = $varun / 2;
+	}
+
+?>
+
+<br>
+<?php  
 
 	$test = "on arrive presque";
 	for ($i=0; $i<15 ; $i++){ 
