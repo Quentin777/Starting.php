@@ -31,7 +31,7 @@ echo $_SERVER ['SERVER_NAME'];
 echo $_SERVER ['HTTP_USER_AGENT'];
 ?>
 
-<form action="superglobal.php" method="POST">
+<form action="superglobal2.php" method="POST">
  <label for="login">Pseudo :</label>
  <p>Login: <input type="text" name="login" /></p>
  <label for="mdp">Message :</label>
