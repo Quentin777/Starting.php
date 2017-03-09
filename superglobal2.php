@@ -3,6 +3,10 @@
 // On démarre la session AVANT d'écrire du code HTML
 
 session_start();
+setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true); // On écrit un cookie
+
+setcookie('mdp', $_POST['mdp'], time() + 365*24*3600, null, null, false, true); // On écrit un autre 
+
 
 
 // On s'amuse à créer quelques variables de session dans $_SESSION
@@ -25,11 +29,11 @@ $_SESSION['age'] = 24;
 
 	<p>
 
-        Je me souviens de toi ! Tu t'appelles <?php echo $_SESSION['prenom'] . ' ' . $_SESSION['nom']; ?> !<br />
+    Hé ! Je me souviens de toi !<br />
 
-        Et ton âge hummm... Tu as <?php echo $_SESSION['age']; ?> ans, c'est ça ? :-D
+    Tu t'appelles <?php echo $_COOKIE['login']; ?> et ton mdp est <?php echo $_COOKIE['mdp']; ?> 
 
-    </p>
+</p>
 
 </body>
 </html>

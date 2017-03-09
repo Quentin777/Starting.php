@@ -32,7 +32,9 @@ echo $_SERVER ['HTTP_USER_AGENT'];
 ?>
 
 <form action="superglobal.php" method="POST">
+ <label for="login">Pseudo :</label>
  <p>Login: <input type="text" name="login" /></p>
+ <label for="mdp">Message :</label>
  <p>mots de passe: <input type="text" name="mdp" /></p>
  <SELECT name="Civilité" size="1">
 	<OPTION>Mr
