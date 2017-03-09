@@ -6,7 +6,8 @@
 </head>
 <body>
 <?php  
-echo date('D/m/Y H:i:s');
+setlocale (LC_TIME, 'fr_FR.utf8','fra'); 
+echo date(strftime('l/j/F/Y H:i:s'));
 ?>
 </body>
 </html>
