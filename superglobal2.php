@@ -4,7 +4,7 @@
 
 session_start();
 if (!isset($_COOKIE['login']) || !isset($_COOKIE['mdp'])){
-	setcookie('','$_POST',time() + 365*24*3600, null, null, false, true);
+	setcookie('1','coucou',time() + 365*24*3600, null, null, false, true);
 }
 setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true); // On écrit un cookie
 
@@ -34,7 +34,7 @@ $_SESSION['age'] = 24;
 
     Hé ! Je me souviens de toi !<br />
 
-   Tu t'appelles <?php echo isset($_COOKIE['login']); ?> et ton mdp est <?php echo isset($_COOKIE['mdp']); ?> 
+   Tu t'appelles <?php echo $_COOKIE['login']; ?> et ton mdp est <?php echo $_COOKIE['mdp']; ?> 
 
 </p>
 
