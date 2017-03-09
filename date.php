@@ -6,7 +6,6 @@
 </head>
 <body>
 <?php  
-
 echo strftime("%A %e %B %Y");
 ?>
 </body>
