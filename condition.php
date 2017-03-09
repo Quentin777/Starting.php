@@ -27,9 +27,10 @@
 
 	if ($age < 18 && $genre =="homme"){ 
 		echo "Vous êtes un homme mineur";
-	}else if{
-		echo "Vous êtes un $genre";
-	}
+	}elseif{($age >= 18 && $genre =="homme"){ 
+		echo "Vous êtes un homme majeur";
+	}elseif{($age >= 18 && $genre =="homme"){ 
+		echo "Vous êtes un homme majeur";
 
 	if ($age < 18){
 		echo "et vous avez $age ans";
