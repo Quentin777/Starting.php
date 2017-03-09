@@ -11,7 +11,7 @@
 
 
 echo $SERVER['REMOTE_ADDR'];
-echo $SERVER ['SERVER_NAME'];
+echo $SERVER_NAME ['SERVER_NAME'];
 echo $HTTP_USER_AGENT ['USER_AGENT'];
 ?>
 
