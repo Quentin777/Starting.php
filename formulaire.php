@@ -7,7 +7,7 @@
 <body>
 
 
-<form action="formulaire.php" method="GET">
+<form action="formulaire.php" method="post" enctype="multipart/form-data">
  <p>Votre nom : <input type="text" name="nom" /></p>
  <p>Votre âge : <input type="text" name="age" /></p>
  <SELECT name="Civilité" size="1">
@@ -21,9 +21,9 @@
 
 
 <?php
-if (isset($_GET['nom']) AND isset($_GET['age'])) 
+if (isset($_POST['nom']) AND isset($_POST['age'])) 
 {
-	echo 'Bonjour '.$_GET['Civilité'].' '. $_GET['nom'] . ' ' . $_GET['age'] . ' !';
+	echo 'Bonjour '.$_POST['Civilité'].' '. $_POST['nom'] . ' ' . $_POST['age'] . ' !';
 }
 else // Il manque des paramètres, on avertit le visiteur
 {
