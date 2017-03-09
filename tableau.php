@@ -18,7 +18,7 @@ $departement = (02 => 'janvier',
 		 62 => 'mars', 
 		 60 => 'avril',);
 for ($boucle=0; $boucle < count($departement) ; $boucle++) { 
-	echo de la valeur;
+	echo $departement[$boucle];
 }
 foreach ($departement as $value) {
 	echo $value
