@@ -6,10 +6,7 @@
 </head>
 <body>
 <?php  
-date_default_timezone_set('GMT');
-echo time (h:i:s);
-echo date('d/m/Y');
-
+echo date('D/m/Y H:i:s');
 ?>
 </body>
 </html>
