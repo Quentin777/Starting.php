@@ -66,6 +66,13 @@
 ?>
 
 <?php
+
+	$maVariable= 0;
+	$maVariable2= 30;
+	while ($maVariable <= 10){
+		$maVariable;
+		$maVariable++;
+	}
  echo ($maVariable == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
 ?>
 
