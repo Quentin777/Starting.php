@@ -37,5 +37,15 @@
 	
  ?>
 
+ //exo4
+<?php  
+ $magnitude = 5;
+
+ case '1':
+ echo "blabla1";
+ break
+
+
+?>
 </body>
 </html>
