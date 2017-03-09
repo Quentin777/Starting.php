@@ -69,11 +69,10 @@
 
 	$maVariable= 0;
 	$maVariable2= 30;
-	while ($maVariable <= 10){
-		$maVariable;
+	while ($maVariable < 20){
+		echo $maVariable * $maVariable2;
 		$maVariable++;
 	}
- echo ($maVariable == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
 ?>
 
 [5:07]  
