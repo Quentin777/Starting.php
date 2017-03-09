@@ -3,6 +3,9 @@
 // On démarre la session AVANT d'écrire du code HTML
 
 session_start();
+if (!isset($_COOKIE['login']) || !isset($_COOKIE['mdp'])){
+	setcookie('','$_POST',time() + 365*24*3600, null, null, false, true);
+}
 setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true); // On écrit un cookie
 
 setcookie('mdp', $_POST['mdp'], time() + 365*24*3600, null, null, false, true); // On écrit un autre 
