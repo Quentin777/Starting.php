@@ -31,7 +31,7 @@ $_SESSION['age'] = 24;
 <body>
 
 	<p>
-   Tu t'appelles <?php echo $_COOKIE['login'] = $_POST['login']; ?> et ton mdp est <?php echo $_COOKIE['mdp'] = $_POST['password']; ?> </p>
+   Tu t'appelles <?php echo $_COOKIE['login'] = $_POST['login']; ?> et ton mdp est <?php echo $_COOKIE['mdp'] = $_POST['mdp']; ?> </p>
 
 </body>
 </html>
