@@ -27,6 +27,7 @@ $_SESSION['age'] = 24;
 
 echo $_SERVER['REMOTE_ADDR'];
 echo $_SERVER ['SERVER_NAME'];
+echo $_SERVER ['HTTP_USER_AGENT'];
 ?>
 
 </body>
