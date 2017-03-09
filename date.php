@@ -6,8 +6,9 @@
 </head>
 <body>
 <?php  
-$tz = new DateTimeZone("Europe/Paris");
-echo date('d/m/Y h:i:s')
+date_default_timezone_set('GMT');
+echo time (h:i:s);
+echo date('d/m/Y');
 
 ?>
 </body>
