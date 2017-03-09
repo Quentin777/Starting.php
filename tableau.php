@@ -12,6 +12,11 @@ $mois = ('janvier',
 		 'octobre', 
 		 'novembre' , 
 		 'decembre');
+
+$departement = (02 => 'janvier', 
+		 59 => 'fevrier', 
+		 62 => 'mars', 
+		 60 => 'avril',);
  ?>
 
 <!DOCTYPE html>
@@ -32,13 +37,20 @@ echo $mois[2];
 
 echo $mois[2];
 
-); 
 
 ?>
 
+<?php // exo 2
+
+echo $mois[5] = 'julien';
+
+
+?>
+
+
 <?php 
 
-	var_dump($tableau);
+	echo $departement[59];
 
  ?>
 
