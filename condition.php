@@ -65,27 +65,5 @@
 
 ?>
 
-<?php
-
-	$maVariable= 0;
-	$maVariable2= 30;
-	while ($maVariable < 20){
-		echo $maVariable * $maVariable2;
-		$maVariable++;
-	}
-?>
-
-[5:07]  
-<?php
- echo ($monAge >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
-?>
-
-[5:07]  
-<?php
- echo ($maVariable) ? 'c'est ok !!' : 'c'est pas bon !!!';
-?>
-
-?>
-
 </body>
 </html>
