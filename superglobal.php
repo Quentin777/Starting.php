@@ -8,11 +8,9 @@
 
 <?php
 
-
-
-echo $SERVER['REMOTE_ADDR'];
-echo $SERVER_NAME ['SERVER_NAME'];
-echo $HTTP_USER_AGENT ['USER_AGENT'];
+echo $_SERVER['REMOTE_ADDR'];
+echo $_SERVER_NAME ['SERVER_NAME'];
+echo $_HTTP_USER_AGENT ['USER_AGENT'];
 ?>
 
 </body>
