@@ -22,11 +22,11 @@
 
 <?php 
 
-	$age = 42;
+	$age = 12;
 	$genre = "homme";
 
-	if ($genre == 'homme'){ 
-		echo "Vous êtes un $genre";
+	if ($age < 18 && $genre =="homme"){ 
+		echo "Vous êtes un homme mineur";
 	}else if{
 		echo "Vous êtes un $genre";
 	}
