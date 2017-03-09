@@ -53,10 +53,13 @@
  case '4':
  echo "blabla4";
  break;
+?>
 
+<?php
 
-
+echo ($mavariable !='homme')?;
 
 ?>
+
 </body>
 </html>
