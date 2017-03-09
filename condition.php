@@ -57,7 +57,22 @@
 
 <?php
 
-echo ($mavariable !='homme')?;
+ echo ($maVariable != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
+?>
+
+<?php
+ echo ($maVariable == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
+?>
+
+[5:07]  
+<?php
+ echo ($monAge >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
+?>
+
+[5:07]  
+<?php
+ echo ($maVariable) ? 'c'est ok !!' : 'c'est pas bon !!!';
+?>
 
 ?>
 
