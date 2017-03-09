@@ -4,7 +4,7 @@
 
 session_start();
 if (!isset($_COOKIE['login']) || !isset($_COOKIE['mdp'])){
-	setcookie('1','coucou',time() + 365*24*3600, null, null, false, true);
+	setcookie('login','coucou',time() + 365*24*3600, null, null, false, true);
 }
 setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true); // On écrit un cookie
 
