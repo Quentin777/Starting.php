@@ -6,6 +6,7 @@
 </head>
 <body>
 <?php  
+$tz = new DateTimeZone("Europe/Paris");
 echo date('d/m/Y h:i:s')
 
 ?>
