@@ -29,14 +29,12 @@
 		echo "Vous êtes un homme mineur";
 	}elseif{($age >= 18 && $genre =="homme"){ 
 		echo "Vous êtes un homme majeur";
-	}elseif{($age >= 18 && $genre =="homme"){ 
-		echo "Vous êtes un homme majeur";
-
-	if ($age < 18){
-		echo "et vous avez $age ans";
-	}else if{
-		echo "et vous avez $age ans";
+	}elseif{($age < 18 && $genre =="femme"){ 
+		echo "Vous êtes un femme mineur";
+	}elseif{($age >= 18 && $genre =="femme"){ 
+		echo "Vous êtes un femme majeur";
 	}
+	
  ?>
 
 </body>
