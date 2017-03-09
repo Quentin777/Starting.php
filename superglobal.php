@@ -1,6 +1,9 @@
 <?php
-
 session_start();
+if (!isset($_COOKIE['login']) || !isset($_COOKIE['mdp'])){
+	setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true);
+	setcookie('mdp', $_POST['mdp'], time() + 365*24*3600, null, null, false, true);
+}
 setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true);
 setcookie('mdp', $_POST['mdp'], time() + 365*24*3600, null, null, false, true); 
 
