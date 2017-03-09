@@ -6,7 +6,16 @@
 </head>
 <body>
 
+<?php
 
+
+
+echo $_SERVER['REMOTE_ADDR'];
+echo $SERVER_NAME ;
+echo $HTTP_USER_AGENT ;
+?>
 
 </body>
 </html>
+
+
