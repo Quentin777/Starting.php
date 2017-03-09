@@ -1,9 +1,9 @@
 <?php
 
 session_start();
-setcookie('login', 'login', time() + 365*24*3600, null, null, false, true); // On écrit un cookie
+setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true); // On écrit un cookie
 
-setcookie('mdp', 'mdp', time() + 365*24*3600, null, null, false, true); // On écrit un autre 
+setcookie('mdp', $_POST['mdp'], time() + 365*24*3600, null, null, false, true); // On écrit un autre 
 
 
 // On s'amuse à créer quelques variables de session dans $_SESSION
@@ -31,7 +31,7 @@ echo $_SERVER ['SERVER_NAME'];
 echo $_SERVER ['HTTP_USER_AGENT'];
 ?>
 
-<form action="superglobal.php" method="GET">
+<form action="superglobal.php" method="POST">
  <p>Login: <input type="text" name="login" /></p>
  <p>mots de passe: <input type="text" name="mdp" /></p>
  <SELECT name="Civilité" size="1">
