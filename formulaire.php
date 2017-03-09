@@ -16,7 +16,7 @@
 	<OPTION>Mademoiselle
 	</SELECT>
  <p><input type="submit" value="OK"></p>
- <p><input type="submit" value="Envoie fichier">
+ <p><input type="file" name= "fichier" value="fichier">
 </form>
 
 
