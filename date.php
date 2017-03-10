@@ -35,8 +35,6 @@ echo "Nombre de jours : ".$nbJours;
 
 <br><br>
 
-<link rel="stylesheet" type="text/css" href="style/style.css">
-
 <table>
 	<tr>
 		<td>coucou</td>	
