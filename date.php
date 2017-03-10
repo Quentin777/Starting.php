@@ -36,15 +36,17 @@ echo "Nombre de jours : ".$nbJours;
 <br><br>
 
 <table>
+	<tr colspan="7"> mois et l'année</tr>
 	<tr>
-		<td>coucou</td>	
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
+		<td>Lun</td>	
+		<td>Mar</td>
+		<td>Mer</td>
+		<td>Jeu</td>
+		<td>Ven</td>
+		<td>Sam</td>
+		<td>Dim</td>
 	</tr>
+<?php  for ($semaine=0; $semaine <= 4; $semaine++){ ?>
 	<tr>
 		<td>coucou</td>	
 		<td>coucou</td>
@@ -54,51 +56,9 @@ echo "Nombre de jours : ".$nbJours;
 		<td>coucou</td>
 		<td>coucou</td>
 	</tr>	
-	<tr>
-		<td>coucou</td>	
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-	</tr>
-	<tr>
-		<td>coucou</td>	
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-	</tr>	
-	<tr>
-		<td>coucou</td>	
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-	</tr>
-	<tr>
-		<td>coucou</td>	
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-	</tr>
-		<tr>
-		<td>coucou</td>	
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-		<td>coucou</td>
-	</tr>
+	<?php
+}
+?>
 </table>
 
 </body>
