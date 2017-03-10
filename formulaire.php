@@ -29,6 +29,13 @@ else // Il manque des paramètres, on avertit le visiteur
 {
 	echo 'il manque des trucs';
 }
+
+
+if ($_FILES['fichier']['type'] == 'application/pdf'){
+
+}else{
+	echo 'erreur type de ficher';
+}
 ?>
 
 </body>

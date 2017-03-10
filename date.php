@@ -30,8 +30,78 @@ $nbJoursTimestamp = $date2 - $date1;
 $nbJours = $nbJoursTimestamp/86400; // 86 400 = 60*60*24
  
 echo "Nombre de jours : ".$nbJours;
- 
+
 ?>
+
+<br><br>
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<table>
+	<tr>
+		<td>coucou</td>	
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+	</tr>
+	<tr>
+		<td>coucou</td>	
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+	</tr>	
+	<tr>
+		<td>coucou</td>	
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+	</tr>
+	<tr>
+		<td>coucou</td>	
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+	</tr>	
+	<tr>
+		<td>coucou</td>	
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+	</tr>
+	<tr>
+		<td>coucou</td>	
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+	</tr>
+		<tr>
+		<td>coucou</td>	
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+		<td>coucou</td>
+	</tr>
+</table>
 
 </body>
 </html>
