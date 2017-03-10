@@ -92,7 +92,7 @@ for ($i=0; $i < 6-$index ; $i++) {
 
 <table>
     <tr>
-        <td colspan="7">mois et l'année</td>
+        <td colspan="7"><?= $calendrier ->format('m-Y'); ?></td>
     </tr>    
     <tr>
         <td>Lu</td>
